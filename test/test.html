@@ -1,0 +1,17 @@
+describe("CSS Fundamentals Lab", () => {
+
+  test("basic sanity test", () => {
+    expect(true).toBe(true);
+  });
+
+  test("HTML file exists", () => {
+    const fs = require("fs");
+    expect(fs.existsSync("index.html")).toBe(true);
+  });
+
+  test("CSS file exists", () => {
+    const fs = require("fs");
+    expect(fs.existsSync("style.css")).toBe(true);
+  });
+
+});
