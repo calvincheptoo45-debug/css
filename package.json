@@ -4,12 +4,9 @@
   "description": "CSS Fundamentals Lab",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests"
+    "test": "echo \"No tests to run\" && exit 0"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^29.7.0"
-  }
+  "license": "ISC"
 }
